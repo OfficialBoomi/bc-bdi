@@ -1,7 +1,7 @@
 {
   "name": "bc-bdi",
   "description": "Operates Boomi Data Integration (BDI, formerly Rivery) — the ELT/ETL data-pipeline product that loads and transforms data in a data warehouse or lake.",
-  "version": "0.1.80",
+  "version": "0.2.0",
   "author": {
     "name": "Boomi"
   }

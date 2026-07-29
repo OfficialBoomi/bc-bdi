@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.0
+
+- State the tooling and approval-prompt guidance host-neutrally
+
+
 ## 0.1.80
 
 - Connector discriminators now enumerated live, not from a frozen list
