@@ -3,7 +3,7 @@
 
 set -euo pipefail
 
-# Every site that expands a credential runs between these two. Mechanism and rationale: CLAUDE.md.
+# Every site that expands a credential runs between these two.
 _BDI_XTRACE=0
 _BDI_XTRACE_DEPTH=0
 xtrace_off() {

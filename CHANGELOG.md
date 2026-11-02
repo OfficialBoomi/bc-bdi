@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.6
+
+- Make plugin and skill documentation agent-neutral
+
+
 ## 0.2.5
 
 - Add worked incremental keyed-merge and log-CDC flow bodies

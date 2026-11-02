@@ -31,11 +31,6 @@ If you don't have the environment id, leave that line out and run `bdi-env-check
 
 A token is scoped to specific environments when created — if `bdi-env-check.sh` authenticates but lists no environments, grant the token environment access in the BDI console. Listing an environment does not mean the token can work inside it: a `403` on one environment usually means another environment is the right target, not that the token is broken. A `401` is the same response for a mistyped token and for the wrong region host, so check the token paste first, then the host.
 
-Allowlist the skill and its scripts in the workspace's `.claude/settings.json` under `permissions.allow`:
-
-- `Skill(bc-bdi:boomi-bdi)`
-- `Bash(bash */skills/boomi-bdi/scripts/*)`
-
 Optionally, add a `preferred_connections.md` to the workspace listing the BDI connections flows should use (name/id plus a one-line description each) — the agent checks it before proposing connections. Same file convention as bc-integration; a plain hand-written file works.
 
 ## BDI documentation
